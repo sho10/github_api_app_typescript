@@ -1,4 +1,4 @@
-# github_api_app_typescript
+# Searching GitHub Repositories using the API
 
 ## Project setup
 ```
