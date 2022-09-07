@@ -6,6 +6,9 @@
       placeholder="Enter to Search"
       v-on:input="getGitHubRepo"
     ></b-form-input>
+    <p class="mt-5 mb-5">
+      Search Results: {{ this.gitHubRepo ? this.gitHubRepo.length : 0 }}
+    </p>
     <div class="ml-1 mr-1">
       <b-table
         striped
